@@ -80,8 +80,10 @@ nav ul li a{
 
 main{
     grid-area: main;
+    display: grid;
+    grid-template-areas: ".card .card .card";
 }
-
+/*
 .textoscentral{
     display: flex;
     flex-direction: row;
@@ -102,7 +104,15 @@ main{
     border: solid;
     color: blue;
 }
+*/
 
+.card{
+    display: flex;
+    text-align: center;
+    grid-area: card;
+    width: 50%;
+    align-content: center;
+}
 
 .tituloyparrafo{
     display: flex;
@@ -249,13 +259,15 @@ iframe{
     }
 
     main{
-        display: block;
+        margin: 1rem;
+        grid-template-areas: "card";
     }
 
+/*
     .textoscentral{
         flex-direction: column;
     }
-
+*/
     footer{
         flex-direction: column;
         align-items: center;
@@ -299,13 +311,19 @@ iframe{
     }
 
     main{
-        display: block;
+        display: grid;
+        grid-template-areas: "card";
     }
 
+    .card{
+        
+        justify-items: center;
+    }
+/*
     .textoscentral{
         flex-direction: column;
     }
-
+*/
     footer{
         flex-direction: column;
         align-items: center;
