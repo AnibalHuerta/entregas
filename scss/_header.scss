@@ -1,0 +1,66 @@
+@import url(header);
+
+header{
+    {
+    grid-area: header;
+    border-bottom: solid white;
+    margin: 50px 20px;}
+    .escalar {
+        animation-name: scale;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    @keyframes scale {
+        from{
+            transform: scale(1);
+        }
+    
+        to{
+            transform: scale(1.2);
+        }
+    }
+    nav{
+        margin: 30px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .navbar{
+        list-style-type: none;
+        display: flex;
+    }
+    
+    h1{
+        color: white;
+        border: solid;
+        background-color: rgb(58, 127, 255);
+        padding: 5px;
+    }
+    
+    
+    nav ul li a{
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        border: solid;
+        background-color: white;
+        color: rgb(44, 128, 255);
+        width: 150px;
+        padding: 0px 10px;
+        margin: 5px;
+    
+     }
+    
+     nav ul li a:hover{
+         background-color: rgb(44, 128, 255);
+         color: white;
+     }
+}
+
+
+
+
+
+

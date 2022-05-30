@@ -1,0 +1,62 @@
+@import url(main);
+
+main{
+    {
+    grid-area: main;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;}
+    
+.card{
+    display: flex;
+    text-align: center;
+    grid-area: card;
+    width: 50%;
+    align-content: center;
+}
+.tituloyparrafo{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+.textosimpresiones{
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    width: 300px;
+    background-color: rgba(0, 132, 255, 0.767);
+    border: solid;
+    border-color: black;
+    color: rgb(255, 255, 255);
+    padding: 5px 5px;
+ }
+
+ .imagenesimpresiones{
+    display: flex;
+    flex-direction: column;
+    }
+
+.imaguno{
+    margin: 10px;
+    border: solid;
+    color: rgb(45, 101, 255);
+     
+}
+
+.imagdos{
+    margin: 10px;
+    border: solid;
+    color: rgb(45, 101, 255);
+  
+}
+
+}
+
+
+
+
+
+   

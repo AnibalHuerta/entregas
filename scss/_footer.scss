@@ -1,0 +1,27 @@
+@import url(footer);
+
+footer{
+    {
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    }   
+    h3{
+        margin: 5px;
+         padding: 5px;
+         border: solid;
+         color: rgb(46, 144, 255);
+         background-color: white;
+       
+     }
+     
+     .ig{
+         background-color: white;
+         border-radius: 100px;
+         border: solid;
+         color: rgb(60, 161, 255);
+         width: 50px;
+     }
+     }
+    
+
